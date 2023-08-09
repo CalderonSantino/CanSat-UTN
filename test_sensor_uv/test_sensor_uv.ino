@@ -1,12 +1,14 @@
 float sensorVoltage;
 float sensorValue;
 
-void setup() {
+void setup()
+{
   Serial.begin(9600);
   pinMode(A1, OUTPUT);
 }
 
-void loop() {
+void loop()
+{
   sensorValue = analogRead(A1);
   sensorVoltage = sensorValue / 1024 * 5.0;
   Serial.print("sensor reading = ");
