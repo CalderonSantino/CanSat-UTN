@@ -8,14 +8,14 @@
   )
 
 
-  (sheet (at 48.514 50.546) (size 29.464 27.686) (fields_autoplaced)
+  (sheet (at 69.342 51.816) (size 29.464 27.686) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 43bc1217-1e03-40d2-83c7-fbb82912f4a3)
-    (property "Sheetname" "Fuente de alimentacion" (at 48.514 49.8344 0)
+    (property "Sheetname" "Fuente de alimentacion" (at 69.342 51.1044 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "Fuente de alimentacion.kicad_sch" (at 48.514 78.8166 0)
+    (property "Sheetfile" "Fuente de alimentacion.kicad_sch" (at 69.342 80.0866 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (instances
@@ -25,14 +25,14 @@
     )
   )
 
-  (sheet (at 81.534 50.546) (size 30.226 27.686) (fields_autoplaced)
+  (sheet (at 102.362 51.816) (size 30.226 27.686) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 7a421331-9374-4963-972d-5d2825b48499)
-    (property "Sheetname" "Arduino Nano" (at 81.534 49.8344 0)
+    (property "Sheetname" "Arduino Nano" (at 102.362 51.1044 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "Arduino Nano.kicad_sch" (at 81.534 78.8166 0)
+    (property "Sheetfile" "Arduino Nano.kicad_sch" (at 102.362 80.0866 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (instances
