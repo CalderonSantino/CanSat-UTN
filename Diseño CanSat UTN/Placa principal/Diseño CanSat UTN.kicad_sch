@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6d01f5e8-1e9f-449b-95d5-6b60605ac758)
+
+  (paper "A5")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 48.514 50.546) (size 29.464 27.686) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 43bc1217-1e03-40d2-83c7-fbb82912f4a3)
+    (property "Sheetname" "Fuente de alimentacion" (at 48.514 49.8344 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Fuente de alimentacion.kicad_sch" (at 48.514 78.8166 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "Diseño CanSat UTN"
+        (path "/6d01f5e8-1e9f-449b-95d5-6b60605ac758" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 81.534 50.546) (size 30.226 27.686) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7a421331-9374-4963-972d-5d2825b48499)
+    (property "Sheetname" "Arduino Nano" (at 81.534 49.8344 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Arduino Nano.kicad_sch" (at 81.534 78.8166 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "Diseño CanSat UTN"
+        (path "/6d01f5e8-1e9f-449b-95d5-6b60605ac758" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
