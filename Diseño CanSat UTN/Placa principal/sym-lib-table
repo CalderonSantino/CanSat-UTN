@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "Jack-DC")(type "KiCad")(uri "${KIPRJMOD}/Jack-DC.kicad_sym")(options "")(descr ""))
+  (lib (name "Switch-Horizontal")(type "KiCad")(uri "${KIPRJMOD}/Switch-Horizontal.kicad_sym")(options "")(descr ""))
+  (lib (name "MicroSD-Card-Adapter")(type "KiCad")(uri "${KIPRJMOD}/MicroSD-Card-Adapter.kicad_sym")(options "")(descr ""))
 )

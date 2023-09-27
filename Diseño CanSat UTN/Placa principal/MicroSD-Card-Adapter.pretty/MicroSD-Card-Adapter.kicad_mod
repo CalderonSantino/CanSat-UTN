@@ -1,0 +1,45 @@
+(footprint "MicroSD-Card-Adapter" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp bda2a1d9-a045-45c2-bc35-5b710422bac2)
+  )
+  (fp_text value "MicroSD-Card-Adapter" (at 0 1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3327bbe2-1d4e-4ce3-ada0-7bb010e64fc9)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ade1c394-9e06-4ae2-a9cd-313f3301f675)
+  )
+  (fp_line (start -23 -12) (end -23 12)
+    (stroke (width 0.1) (type default)) (layer "Margin") (tstamp 494b9f27-6f52-429b-8a78-c15026bd743b))
+  (fp_line (start -23 -12) (end 23 -12)
+    (stroke (width 0.1) (type default)) (layer "Margin") (tstamp 2403fdf7-4457-463e-abb1-9ddf75eb895b))
+  (fp_line (start 23 -12) (end 23 12)
+    (stroke (width 0.1) (type default)) (layer "Margin") (tstamp a4f64454-0dbc-48dd-a774-088fdb9f55cc))
+  (fp_line (start 23 12) (end -23 12)
+    (stroke (width 0.1) (type default)) (layer "Margin") (tstamp 25ea0dd6-5cf9-41e6-9a28-1bbb22c3f313))
+  (pad "1" thru_hole circle (at 20.32 7.62) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 603847fb-1139-4177-b42d-5e19ee927ab2))
+  (pad "2" thru_hole circle (at 20.32 5.08) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp f2981b40-6c49-4d5a-a612-69c5749d555b))
+  (pad "3" thru_hole circle (at 20.32 2.54) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp f72d9ae6-d63c-4da7-b6e0-c64e44323f5d))
+  (pad "4" thru_hole circle (at 20.32 0) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 41aa2514-8694-47d9-9a66-e913ed091a9d))
+  (pad "5" thru_hole circle (at 20.32 -2.54) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 59c9a1c4-a7cb-4f20-94c4-2202b5b161a9))
+  (pad "6" thru_hole circle (at 20.32 -5.08) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 4a7f0a1b-0e4a-44bd-8a82-bfd46ee9a8a5))
+  (group "" (id cfe5c969-44b2-4dc8-9171-46401a97ca11)
+    (members
+      41aa2514-8694-47d9-9a66-e913ed091a9d
+      4a7f0a1b-0e4a-44bd-8a82-bfd46ee9a8a5
+      59c9a1c4-a7cb-4f20-94c4-2202b5b161a9
+      603847fb-1139-4177-b42d-5e19ee927ab2
+      f2981b40-6c49-4d5a-a612-69c5749d555b
+      f72d9ae6-d63c-4da7-b6e0-c64e44323f5d
+    )
+  )
+  (model "C:/Users/calde/Downloads/microsd-reader-assembly-with-card-inserted-1.snapshot.1/MicroSD Reader Assembly.stp"
+    (offset (xyz 10.5 -4.5 5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

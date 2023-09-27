@@ -531,12 +531,12 @@
     (property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf" (at 145.542 54.864 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5edb18bf-f26c-4a08-8cbc-ca0fda57d2bd))
-    (pin "2" (uuid cb8fef12-99f0-4def-916d-8322d31f2b83))
-    (pin "3" (uuid 593279cb-482a-4064-8c79-38480501b76b))
-    (pin "4" (uuid 91f70538-1a22-47b8-bacc-5cfa4278c220))
-    (pin "5" (uuid 49edacf6-c84a-4fcd-8497-d7424b9ee631))
-    (pin "6" (uuid a42ad5ca-d9ca-43c4-9bff-5a0f47a6a09d))
+    (pin "1" (uuid 4d4c5355-b7a8-4cd8-b095-d8d0342f8fd7))
+    (pin "2" (uuid 77a126bf-01d9-4576-8c8e-27035d6b64e9))
+    (pin "3" (uuid aa03c56f-8c95-4ecc-b8d8-2765c3a41d4c))
+    (pin "4" (uuid fe7f6aa6-59c5-4d0f-b182-6dce78fbdd2d))
+    (pin "5" (uuid 0ebc6c2c-f8d4-4954-9368-b1a827969892))
+    (pin "6" (uuid f0959447-c143-434e-9fbb-968c4b040a15))
     (instances
       (project "Placa de sensores"
         (path "/fa6e9766-9c9d-4c73-9cb8-9cce24517756"

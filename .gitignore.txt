@@ -1,3 +1,4 @@
 C:\Users\calde\OneDrive\Escritorio\CanSat UTN\Diseño CanSat UTN\Placa principal\Diseño CanSat UTN-backups/
 C:\Users\calde\OneDrive\Escritorio\CanSat UTN\Diseño CanSat UTN\Placa principal\#auto_saved_files#/
 C:\Users\calde\OneDrive\Escritorio\CanSat UTN\Diseño CanSat UTN\Placa principal\_autosave-Diseño CanSat UTN/
+.gitignore

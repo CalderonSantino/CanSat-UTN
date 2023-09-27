@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "Arduino Nano 3D")(type "KiCad")(uri "${KIPRJMOD}/Arduino Nano 3D.pretty")(options "")(descr ""))
   (lib (name "Jack-DC")(type "KiCad")(uri "${KIPRJMOD}/Jack-DC.pretty")(options "")(descr ""))
+  (lib (name "Switch-Horizontal")(type "KiCad")(uri "${KIPRJMOD}/Switch-Horizontal.pretty")(options "")(descr ""))
+  (lib (name "MicroSD-Card-Adapter")(type "KiCad")(uri "${KIPRJMOD}/MicroSD-Card-Adapter.pretty")(options "")(descr ""))
 )
