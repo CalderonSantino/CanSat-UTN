@@ -1,6 +1,9 @@
+/* <---------------------------------------------------> */
+
 // Variables Sensor UV
 float sensor_voltage;
 float sensor_value;
+unsigned long id_sensor_uv = 1;
 
 //Librerias Sensor MPU6050
 #include "Wire.h"
@@ -33,6 +36,9 @@ Adafruit_BMP280 bmp;
 float temperatura;
 float presion;
 
+unsigned long id_temperatura = 1;
+unsigned long id_presion = 1;
+
 //Variables MicroSD
 #include <SD.h>
 #define SSpin 9
@@ -55,12 +61,10 @@ void setup() {
   mpu.calcOffsets(true,true);
 
   //Setup Sensor BMP280
-  if ( !bmp.begin() ) {
-    while (1);
-  }
+  if ( !bmp.begin() ) while (1);
 
   //Setup MicroSD
-  if (!SD.begin(SSpin)) {}
+  if ( !SD.begin(SSpin) ) while (1);
 }
 
 void loop() {
@@ -69,19 +73,16 @@ void loop() {
   sensor_MPU_6050();
 
   sensor_BMP_280();
-
-
-  archivo = SD.open("datalog.txt", FILE_WRITE);
-    if (archivo) { //DATALOG
-      archivo.println("Comezando grabado de datos. ");
-      archivo.close();
-    }
 }
+
+/* <---------------------------------------------------> */
 
 void sensor_uv()
 {
   sensor_value = analogRead(A1);
   sensor_voltage = sensor_value / 1024 * 5.0;
+
+  if(guardar_datos(sensor_voltage, id_sensor_uv, "sensor_uv.txt")) id_sensor_uv++;
 }
 
 void sensor_MPU_6050()
@@ -102,11 +103,23 @@ void sensor_MPU_6050()
   angulo_en_x = mpu.getAngleX();
   angulo_en_y = mpu.getAngleY();
   angulo_en_z = mpu.getAngleZ();
-
 }
 
 void sensor_BMP_280()
 {
   temperatura = bmp.readTemperature();
   presion = bmp.readPressure()/100;
+
+  if(guardar_datos(temperatura, id_temperatura, "temperatura.txt")) id_temperatura++;
+  if(guardar_datos(presion, id_presion, "presion.txt")) id_presion++;
+}
+
+bool guardar_datos(float valor, int id, String nombre_archivo){
+  archivo = SD.open(nombre_archivo, FILE_WRITE);
+    if (archivo) { //DATALOG
+      archivo.println(id, valor);
+      archivo.close();
+      return 1;
+    }
+  return 0;
 }

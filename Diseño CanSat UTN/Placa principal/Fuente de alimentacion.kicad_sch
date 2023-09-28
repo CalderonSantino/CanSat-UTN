@@ -804,7 +804,7 @@
     (property "Value" "Switch-Horizontal" (at 79.502 62.992 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Switch-Horizontal:Switch-Horizontal" (at 79.756 56.642 0)
+    (property "Footprint" "Switch-Horizontal:Switch-Horizontal-2" (at 79.756 56.642 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 79.756 56.642 0)
