@@ -1,0 +1,33 @@
+Fuente:
+  Jack 5V
+  Switch Horizontal
+  Arduino Nano
+  Cable para programar Arduino Nano
+  2 Tiras de pines hembra
+  1 Tira de pines macho
+  Placa 10 x 10 doble faz
+  Tarjeta de memoria Micro SD
+Sensores:
+  Placa 10 x 10 doble faz
+  2 Tiras de pines macho
+  Transistor TIP 41C
+Avisos:
+  Placa 10 x 10 doble faz
+  10 resistencias 220 ohm
+  Buzzer 5V
+  
+
+Arduino Nano
+Cable para programar Arduino Nano
+
+3 Placa 10 x 10 doble faz
+
+Jack 5V hembra
+Switch Horizontal
+Tiras de pines hembra
+Tira de pines macho
+10 resistencias 220 ohm
+Buzzer 5V
+
+
+Tarjeta de memoria Micro SD
