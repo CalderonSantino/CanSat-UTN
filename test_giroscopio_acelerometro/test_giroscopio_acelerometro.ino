@@ -16,6 +16,7 @@ long timer = 0;
 
 void setup() {
   Serial.begin(9600);
+  Serial.println("aca");
   Wire.begin();
   
   byte status = mpu.begin();
